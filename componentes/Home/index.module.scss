@@ -1,36 +1,25 @@
 @import "../../styles/library";
 @import "../../styles/_mixins.scss";
 
+.base {
+  display: flex;
+  flex-direction: column;
+}
 .background {
   width: 100%;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  margin-left: -70px;
 
   @include md {
-    margin-left: 200px;
     margin-bottom: 300px;
-
-    .nav {
-      padding-left: 140px;
-      //acomodar padding mayor
-      //mayor margin bottom
-    }
   }
 }
 
 .home {
-  background-color: black;
-  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  justify-content: space-between;
-  margin: auto auto;
-  padding-right: 60px;
-  padding-left: -20px;
-  display: inline-flex;
   @include md {
-    display: grid;
+    flex-direction: column;
   }
 }
 
@@ -44,31 +33,29 @@
 
 .title {
   color: white;
-  width: 700px;
-
+  display: flex;
+  flex-direction: column;
   font-size: 60px;
   line-height: 70px;
   letter-spacing: 3px;
   font-family: "Kanit-Extrabold", Haettenschweiler, "Arial Narrow Bold",
     sans-serif;
   font-weight: 800;
-  margin-right: -180px;
-  margin-top: 80px;
+
   z-index: 20;
-  margin-bottom: -100px;
+
   @include md {
-    font-size: 150px;
+    font-size: 120px;
     font-weight: 800;
-    width: 140%;
+    margin-left: 500px;
     line-height: 160px;
   }
 }
 
 .nav {
-  margin-bottom: -100px;
-  margin-top: -65px;
-  margin-left: 110px;
+  display: flex;
   border-radius: 1px solid;
+  margin-bottom: -100px;
 }
 
 .img {
@@ -76,8 +63,8 @@
   margin-left: 100px;
 
   @include md {
-    width: 1000px;
-    height: 1200px;
+    width: 800px;
+    height: 1000px;
     padding-left: 100px;
     margin-left: 280px;
   }
@@ -98,7 +85,7 @@
   width: fit-content;
   position: relative;
   top: -80px;
-  left: 210px;
+  left: 180px;
   z-index: 200;
   &:hover {
     background-color: transparent;

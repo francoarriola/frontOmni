@@ -37,13 +37,15 @@ const form = () => {
   return (
     <div className={Styles["fondo"]}>
       <div className={Styles["body"]}>
-        <Image
-          src={logoFullBlanco}
-          alt="logo"
-          width={300}
-          height={250}
-          className={Styles["logo"]}
-        />
+        <div className={Styles["logocentrado"]}>
+          <Image
+            src={logoFullBlanco}
+            alt="logo"
+            width={300}
+            height={250}
+            className={Styles["logo"]}
+          />
+        </div>
         <Form ref={form} onSubmit={enviarEmail}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Tu Nombre y Apellido</Form.Label>
@@ -71,12 +73,14 @@ const form = () => {
             <Form.Label>Que actividad queres hacer?</Form.Label>
             <Form.Control as="textarea" rows={3} name="message" required />
           </Form.Group>
-          <Button className={Styles["button"]} type="submit" value="Send">
-            ENVIAR
-          </Button>
-          <Link href="/">
-            <Button className={Styles["button2"]}>VOLVER</Button>
-          </Link>
+          <div className={Styles["buttonsgroup"]}>
+            <Button className={Styles["button"]} type="submit" value="Send">
+              ENVIAR
+            </Button>
+            <Link href="/">
+              <Button className={Styles["button2"]}>VOLVER</Button>
+            </Link>
+          </div>
         </Form>
         {showMessage ? (
           <div className="alert alert-success col-md-5 mx-auto" role="alert">

@@ -1,5 +1,10 @@
 @import "../../styles/library";
 @import "../../styles/_mixins.scss";
+
+.back {
+  display: flex;
+  flex-direction: column;
+}
 .background {
   background-color: $--white-color;
   padding-bottom: 30px;

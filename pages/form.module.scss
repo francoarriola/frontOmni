@@ -1,17 +1,20 @@
 .body {
-  width: 45%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0px 0px 0px 400px;
-}
-.fondo {
   background-image: url(../public/Images/Background.png);
-  padding-bottom: 110px;
+  padding: 0px 80px 80px 80px;
 }
+
 .logo {
   margin-bottom: -80px;
   display: flex;
-  position: relative;
-  left: 150px;
+}
+
+.logocentrado {
+  display: flex;
+  align-self: center;
 }
 
 .button {
@@ -28,13 +31,14 @@
   background-color: transparent;
   color: white;
   border-color: #ffe33a;
-  margin-left: 420px;
+
   &:hover {
     background-color: transparent;
     border-color: white;
   }
 }
 
-.div {
+.buttonsgroup {
   display: flex;
+  justify-content: space-around;
 }

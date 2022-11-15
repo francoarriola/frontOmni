@@ -6,7 +6,7 @@ import { useState } from "react";
 
 function Home() {
   return (
-    <>
+    <div className={Styles["base"]}>
       <div className={Styles["background"]}>
         <div className={Styles["nav"]}>
           <Image
@@ -40,7 +40,7 @@ function Home() {
           </button>
         </a>
       </div>
-    </>
+    </div>
   );
 }
 
