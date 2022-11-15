@@ -10,10 +10,13 @@
   margin: auto auto;
   display: grid;
   @include md {
-    width: 230%;
+    width: 280%;
   }
 }
 
+.planes {
+  font-weight: 800;
+}
 .flex {
   display: flex;
   margin-top: 20px;

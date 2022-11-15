@@ -33,7 +33,9 @@ function Price() {
   return (
     <>
       <div className={Styles["background"]}>
-        <h1 id="price">NUESTROS PLANES</h1>
+        <h1 className={Styles["planes"]} id="price">
+          NUESTROS PLANES
+        </h1>
         <div className={Styles["flex"]}>
           <Card className={Styles["tarjeta"]}>
             <Card.Body className={Styles["tarjeta-cuerpo"]}>

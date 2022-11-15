@@ -7,9 +7,10 @@
   align-items: center;
   justify-content: center;
   margin-left: -70px;
-  background-color: red;
+
   @include md {
-    width: 80%;
+    width: 120%;
+    margin-bottom: 140px;
 
     .nav {
       padding-left: 140px;
@@ -34,9 +35,12 @@
     .img {
       width: 80%;
       margin-left: 280px;
+      margin-top: 80px;
+      height: 550px;
     }
     .title {
       padding-left: 280px;
+      font-weight: 800;
     }
   }
 }
@@ -44,6 +48,7 @@
 .title {
   color: white;
   width: 700px;
+
   font-size: 60px;
   line-height: 70px;
   letter-spacing: 3px;
