@@ -10,7 +10,7 @@
 
   @include md {
     margin-left: 200px;
-    margin-bottom: 550px;
+    margin-bottom: 300px;
 
     .nav {
       padding-left: 140px;
@@ -51,7 +51,7 @@
   letter-spacing: 3px;
   font-family: "Kanit-Extrabold", Haettenschweiler, "Arial Narrow Bold",
     sans-serif;
-  font-weight: 300;
+  font-weight: 800;
   margin-right: -180px;
   margin-top: 80px;
   z-index: 20;
@@ -92,7 +92,7 @@
   background-color: $--primary;
   padding: 10px;
   font-size: 25px;
-  font-weight: 100;
+  font-weight: 800;
   color: black;
   border-radius: 3px;
   width: fit-content;
