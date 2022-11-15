@@ -9,6 +9,8 @@
   @include md {
     .nav {
       padding-left: 10px;
+      //acomodar padding mayor
+      //mayor margin bottom
     }
   }
 }
@@ -43,7 +45,7 @@
   font-size: 70px;
   line-height: 70px;
   letter-spacing: 3px;
-  font-family: "Horizon", Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-right: -180px;
   margin-top: 80px;
   z-index: 20;

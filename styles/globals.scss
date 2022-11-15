@@ -15,7 +15,7 @@
 body {
   background-color: black;
   position: relative;
-  font-family: "Horizon";
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -32,6 +32,7 @@ h2,
 h3 {
   display: flex;
   justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold";
 }
 
 .pointer {
