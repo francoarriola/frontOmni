@@ -1,0 +1,48 @@
+@import "./_library.scss";
+@import "./_mixins.scss";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #ffe33a;
+  --secondary: #201e1f;
+  --gray-color: #bebfc1;
+  --white-color: #fefefe;
+}
+
+body {
+  background-color: black;
+  position: relative;
+  font-family: "Horizon";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  width: 100%;
+  color: var(--white-color);
+}
+
+td {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 100;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold";
+  @include md {
+    font-size: 3.8rem;
+  }
+}

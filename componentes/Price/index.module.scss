@@ -1,0 +1,94 @@
+@import "../../styles/library";
+@import "../../styles/_mixins.scss";
+
+.background {
+  align-items: center;
+  align-content: center;
+  background-image: url(../../public/Images/Background.png);
+  padding-bottom: 95px;
+  width: auto;
+  margin: auto auto;
+  display: grid;
+}
+
+.flex {
+  display: flex;
+  margin-top: 20px;
+  @include md {
+    display: grid;
+  }
+}
+
+.tarjeta {
+  margin: auto auto;
+  width: 22rem;
+  height: 28rem;
+  background-color: rgb(59, 58, 58);
+  margin-bottom: 50px;
+
+  &:hover {
+    transition-duration: 300ms;
+    box-shadow: 9px 10px 21px -6px rgba(255, 227, 58, 0.75);
+    -webkit-box-shadow: 9px 10px 21px -6px rgba(255, 227, 58, 0.75);
+    -moz-box-shadow: 9px 10px 21px -6px rgba(255, 227, 58, 0.75);
+  }
+}
+.tarjeta-cuerpo {
+  text-align: center;
+}
+
+.tarjeta-titulo {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: $--primary;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.tarjeta-text {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  text-align: justify;
+
+  padding-top: 20px;
+}
+
+.tarjeta-footer {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  h3 {
+    font-size: 50px;
+    letter-spacing: 3px;
+  }
+  h4 {
+    margin-top: -10px;
+    letter-spacing: 2px;
+  }
+}
+
+.button {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 4px solid #ffe33a;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 1px 10px 1px 10px;
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+  border-radius: 3px;
+  width: 70%;
+
+  &:hover {
+    background-color: gray;
+    color: black;
+    transition-duration: 300ms;
+  }
+}
+
+.modal-footer {
+  color: black;
+}
+
+.modal-title {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}

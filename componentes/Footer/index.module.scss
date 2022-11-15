@@ -1,0 +1,30 @@
+@import "../../styles/_mixins.scss";
+
+.fondo {
+  background-color: rgb(92, 89, 89);
+
+  padding-top: 10px;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  @include md {
+    .p {
+      padding-left: 20px;
+      margin-top: -20px;
+    }
+  }
+}
+
+.logo {
+  margin-bottom: -70px;
+  margin-top: -60px;
+  margin-left: -20px;
+
+  @include md {
+    margin-left: -70px;
+    width: 200%;
+    margin-bottom: -70px;
+  }
+}

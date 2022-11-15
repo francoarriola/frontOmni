@@ -1,0 +1,33 @@
+@import "../../styles/library";
+@import "../../styles/_mixins.scss";
+.background {
+  background-color: $--white-color;
+  padding-bottom: 30px;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  padding-left: 50px;
+  align-content: center;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  @include md {
+    width: 140%;
+    margin-left: -70px;
+  }
+}
+
+.text {
+  color: black;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+}
+.text2 {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+}

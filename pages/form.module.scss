@@ -1,0 +1,40 @@
+.body {
+  width: 45%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px 0px 0px 400px;
+}
+.fondo {
+  background-image: url(../public/Images/Background.png);
+  padding-bottom: 110px;
+}
+.logo {
+  margin-bottom: -80px;
+  display: flex;
+  position: relative;
+  left: 150px;
+}
+
+.button {
+  background-color: #ffe33a;
+  color: black;
+  border-color: #ffe33a;
+  align-content: space-between;
+  &:hover {
+    background-color: transparent;
+    border-color: white;
+  }
+}
+.button2 {
+  background-color: transparent;
+  color: white;
+  border-color: #ffe33a;
+  margin-left: 420px;
+  &:hover {
+    background-color: transparent;
+    border-color: white;
+  }
+}
+
+.div {
+  display: flex;
+}

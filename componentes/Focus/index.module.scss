@@ -1,0 +1,40 @@
+@import "../../styles/library";
+
+.fondo {
+  text-align: center;
+  padding-bottom: 480px;
+  background-image: url("../../public/Images/muscu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.div {
+  width: max-content;
+  position: relative;
+  top: 200px;
+  h1 {
+    font-size: 60px;
+  }
+}
+.button {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 4px solid #ffe33a;
+  cursor: pointer;
+  background-color: $--primary;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 100;
+  color: black;
+  border-radius: 3px;
+  width: fit-content;
+
+  &:hover {
+    background-color: transparent;
+    color: white;
+    transition-duration: 300ms;
+  }
+}

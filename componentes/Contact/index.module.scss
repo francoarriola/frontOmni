@@ -1,0 +1,94 @@
+@import "../../styles/library";
+@import "../../styles/_mixins.scss";
+
+.img {
+  display: flex;
+  padding: 50px 0px 10px 120px;
+  border-radius: 6px;
+  @include md {
+    width: 120%;
+    height: 110%;
+    margin-left: -108px;
+  }
+}
+
+.h1 {
+  font-size: 100px;
+  margin-top: -80px;
+  @include md {
+    width: 100%;
+    font-size: 80px;
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  h2 {
+    font-size: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: $--primary;
+    @include md {
+      width: 60%;
+      font-size: 20px;
+    }
+  }
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    @include md {
+      display: grid;
+      font-size: 12px;
+      justify-items: center;
+    }
+  }
+  a {
+    cursor: pointer;
+  }
+  @include md {
+    width: 100%;
+  }
+}
+
+.a1 {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  &:hover {
+    color: #db4a39;
+  }
+}
+.a2 {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  &:hover {
+    color: #00bb2d;
+  }
+}
+.a3 {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  &:hover {
+    color: #3b5998;
+  }
+}
+.a4 {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  &:hover {
+    color: rgb(221, 42, 123);
+  }
+}
+.a5 {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  &:hover {
+    color: #0e76a8;
+  }
+}
