@@ -9,8 +9,8 @@
   margin-left: -70px;
 
   @include md {
-    width: 120%;
-    margin-bottom: 140px;
+    margin-left: 200px;
+    margin-bottom: 550px;
 
     .nav {
       padding-left: 140px;
@@ -31,17 +31,14 @@
   display: inline-flex;
   @include md {
     display: grid;
+  }
+}
 
-    .img {
-      width: 80%;
-      margin-left: 280px;
-      margin-top: 80px;
-      height: 550px;
-    }
-    .title {
-      padding-left: 280px;
-      font-weight: 800;
-    }
+.imglogo {
+  @include md {
+    width: 740px;
+    height: 480px;
+    margin-bottom: -40px;
   }
 }
 
@@ -59,6 +56,12 @@
   margin-top: 80px;
   z-index: 20;
   margin-bottom: -100px;
+  @include md {
+    font-size: 150px;
+    font-weight: 800;
+    width: 140%;
+    line-height: 160px;
+  }
 }
 
 .nav {
@@ -71,7 +74,13 @@
 .img {
   border-radius: 6px;
   margin-left: 100px;
-  width: auto;
+
+  @include md {
+    width: 1000px;
+    height: 1200px;
+    padding-left: 100px;
+    margin-left: 280px;
+  }
 }
 
 .button {
@@ -95,5 +104,11 @@
     background-color: transparent;
     color: white;
     transition-duration: 300ms;
+  }
+  @include md {
+    width: max-content;
+    font-size: 60px;
+
+    margin-left: 280px;
   }
 }

@@ -3,9 +3,9 @@
 
 .fondo {
   background-image: url(../../public/Images/Background.png);
-  background-size: contain;
+  background-size: cover;
   @include md {
-    width: 280%;
+    width: 400%;
   }
 }
 
@@ -27,11 +27,14 @@
     }
     .texto {
       margin-left: -50px;
-      margin-top: 20px;
+      margin-top: 70px;
       width: 110%;
+      font-size: 25px;
     }
     .button {
       margin-top: 30px;
+      font-size: 60px;
+      margin-bottom: 10px;
     }
   }
 }

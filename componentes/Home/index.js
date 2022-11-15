@@ -9,7 +9,13 @@ function Home() {
     <>
       <div className={Styles["background"]}>
         <div className={Styles["nav"]}>
-          <Image src={logoFullBlanco} alt="logo" width={300} height={250} />
+          <Image
+            src={logoFullBlanco}
+            alt="logo"
+            width={300}
+            height={250}
+            className={Styles["imglogo"]}
+          />
         </div>
         <div className={Styles["home"]}>
           <h1 className={Styles["title"]}>
