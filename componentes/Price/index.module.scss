@@ -9,6 +9,9 @@
   width: auto;
   margin: auto auto;
   display: grid;
+  @include md {
+    width: 230%;
+  }
 }
 
 .flex {

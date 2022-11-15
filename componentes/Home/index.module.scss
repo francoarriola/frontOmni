@@ -2,13 +2,17 @@
 @import "../../styles/_mixins.scss";
 
 .background {
-  width: 80%;
+  width: 100%;
   display: grid;
   align-items: center;
   justify-content: center;
+  margin-left: -70px;
+  background-color: red;
   @include md {
+    width: 80%;
+
     .nav {
-      padding-left: 10px;
+      padding-left: 140px;
       //acomodar padding mayor
       //mayor margin bottom
     }
@@ -26,15 +30,13 @@
   display: inline-flex;
   @include md {
     display: grid;
-    .nav {
-      padding-left: 100px;
-    }
+
     .img {
       width: 80%;
-      margin-left: 120px;
+      margin-left: 280px;
     }
     .title {
-      padding-left: -30px;
+      padding-left: 280px;
     }
   }
 }
@@ -42,10 +44,12 @@
 .title {
   color: white;
   width: 700px;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 70px;
   letter-spacing: 3px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Kanit-Extrabold", Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  font-weight: 300;
   margin-right: -180px;
   margin-top: 80px;
   z-index: 20;

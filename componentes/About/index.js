@@ -24,14 +24,14 @@ function About() {
               Tenemos todo para cambiar y mejorar en todos los sentidos Tú
               experiencia con el deporte.
               <br />
-              𝘚𝘰𝘮𝘰𝘴 𝘮á𝘴 de veinte profesionales a tu disposición.
+              Somos mas de veinte profesionales a tu disposición.
               <br />
-              𝘚𝘰𝘮𝘰𝘴 cientos de rutinas adaptadas a cada deporte y a cada
+              Somos cientos de rutinas adaptadas a cada deporte y a cada
               necesidad.
               <br />
-              𝘚𝘰𝘮𝘰𝘴 cientos de objetivos.
+              Somos cientos de objetivos.
               <br />
-              𝘚𝘰𝘮𝘰𝘴 Muchos que 𝘴𝘰𝘮𝘰𝘴 felices haciendo de Omni TU espacio.
+              Somos Muchos que somos felices haciendo de Omni TU espacio.
               <br />
               Nuestro Fuerte es la Fuerza, nuestros salónes de musculación
               equipados y distribuidos para asegurar tu evolución y la máxima

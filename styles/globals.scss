@@ -1,5 +1,10 @@
 @import "./_library.scss";
 @import "./_mixins.scss";
+
+@font-face {
+  font-family: "Kanit-Extrabold";
+  src: url("/Fonts/Kanit-Extrabold.ttf") format("opentype");
+}
 * {
   margin: 0;
   padding: 0;
@@ -14,12 +19,12 @@
 
 body {
   background-color: black;
-  position: relative;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold";
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit-Extrabold", Haettenschweiler, "Arial Narrow Bold";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  width: 100%;
   color: var(--white-color);
 }
 
@@ -32,7 +37,7 @@ h2,
 h3 {
   display: flex;
   justify-content: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold";
+  font-family: "Kanit-Extrabold", "Arial Narrow Bold";
 }
 
 .pointer {
@@ -41,8 +46,7 @@ h3 {
 
 h1 {
   font-size: 2.5rem;
-  font-weight: 100;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold";
+  font-family: "Kanit-Extrabold";
   @include md {
     font-size: 3.8rem;
   }

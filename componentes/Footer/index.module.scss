@@ -4,12 +4,13 @@
   background-color: rgb(92, 89, 89);
 
   padding-top: 10px;
-
+  font-family: "Times New Roman", Times, serif;
   display: grid;
   align-items: center;
   justify-content: center;
 
   @include md {
+    width: 230%;
     .p {
       padding-left: 20px;
       margin-top: -20px;

@@ -7,6 +7,9 @@
   display: grid;
   align-items: center;
   justify-content: center;
+  @include md {
+    width: 230%;
+  }
 }
 .img {
   padding-left: 50px;

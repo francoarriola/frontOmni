@@ -7,7 +7,7 @@ export function Contact() {
   const phoneNumber = "+5493455282930";
   const waText = "Hola, estoy en contacto con usted.";
   return (
-    <>
+    <div className={Styles["background"]}>
       <div>
         <Image
           src={manc}
@@ -115,7 +115,7 @@ export function Contact() {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
