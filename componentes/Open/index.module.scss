@@ -9,6 +9,7 @@
     width: 400%;
   }
 }
+
 .background {
   padding-bottom: 30px;
   display: flex;
@@ -21,7 +22,9 @@
   padding-top: 30px;
   margin-bottom: 10px;
   @include md {
+    padding-top: 20px;
     margin-left: -70px;
+    height: 110px;
   }
 }
 

@@ -2,8 +2,6 @@
 @import "../../styles/_mixins.scss";
 
 .fondo {
-  text-align: center;
-  padding-bottom: 480px;
   background-image: url("../../public/Images/muscu.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,8 +9,10 @@
   display: grid;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  padding-bottom: 480px;
   @include md {
-    width: 350%;
+    width: 450%;
   }
 }
 

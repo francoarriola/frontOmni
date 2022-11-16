@@ -3,7 +3,7 @@
 
 .background {
   @include md {
-    width: 280%;
+    width: 400%;
   }
 }
 .img {
@@ -13,7 +13,7 @@
   @include md {
     width: 120%;
     height: 110%;
-    margin-left: -108px;
+    margin-left: -130px;
   }
 }
 
