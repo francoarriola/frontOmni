@@ -3,6 +3,7 @@
 
 .fondo {
   background-image: url("../../public/Images/muscu.jpg");
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -13,6 +14,8 @@
   padding-bottom: 480px;
   @include md {
     width: 450%;
+
+    padding-bottom: 1200px;
   }
 }
 
@@ -23,6 +26,11 @@
   h1 {
     font-size: 60px;
     font-weight: 800;
+    @include md {
+      padding-top: 120px;
+      font-size: 90px;
+      font-weight: 800;
+    }
   }
 }
 .button {
