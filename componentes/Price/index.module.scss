@@ -44,7 +44,7 @@
   margin-bottom: 50px;
   @include md {
     width: 30rem;
-    height: 42rem;
+    height: 45rem;
   }
 
   &:hover {
@@ -116,6 +116,7 @@
   }
   @include md {
     font-size: 40px;
+    font-weight: 500;
   }
 }
 
@@ -126,4 +127,26 @@
 .modal-title {
   color: black;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  @include md {
+    font-size: 80px;
+    font-weight: 500;
+  }
+}
+
+.modal-all {
+  @include md {
+    width: 1000px;
+    height: 1400px;
+
+    font-size: 50px;
+    font-weight: 100;
+  }
+}
+
+.botonmodal {
+  @include md {
+    width: 500px;
+    height: 120px;
+    font-size: 60px;
+  }
 }

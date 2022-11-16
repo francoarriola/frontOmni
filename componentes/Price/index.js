@@ -98,6 +98,7 @@ function Price() {
         onHide={() => setShow(false)}
         dialogClassName="modal-90w"
         aria-labelledby="example-custom-modal-styling-title"
+        className={Styles["modal-all"]}
       >
         <Modal.Header closeButton>
           <Modal.Title
@@ -109,17 +110,17 @@ function Price() {
         </Modal.Header>
         <Modal.Body>
           <p className={Styles["modal-footer"]}>
-            Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
-            commodi aspernatur enim, consectetur. Cumque deleniti temporibus
-            ipsam atque a dolores quisquam quisquam adipisci possimus
-            laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod
-            accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia
-            reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
-            deleniti rem!
+            Cuota valida por el mes actual comenzando desde el dia que se abona,
+            una vez realizado el pago accedes a la cuota PASE LIBRE. Tu cuota
+            finaliza el mismo dia que abonaste. A entrenar!!
           </p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="primary" onClick={() => pagar()}>
+          <Button
+            variant="primary"
+            onClick={() => pagar()}
+            className={Styles["botonmodal"]}
+          >
             ACEPTO
           </Button>
         </Modal.Footer>
