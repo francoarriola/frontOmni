@@ -10,7 +10,7 @@ function Open() {
           src={logoNegro}
           alt="Omni"
           width={450}
-          height={80}
+          height={100}
           className={Styles["img"]}
         />
         <h1 className={Styles["text"]}>Lunes a Viernes</h1>

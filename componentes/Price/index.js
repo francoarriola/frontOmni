@@ -31,7 +31,7 @@ function Price() {
   };
 
   return (
-    <>
+    <div className={Styles["fondo"]}>
       <div className={Styles["background"]}>
         <h1 className={Styles["planes"]} id="price">
           NUESTROS PLANES
@@ -124,7 +124,7 @@ function Price() {
           </Button>
         </Modal.Footer>
       </Modal>
-    </>
+    </div>
   );
 }
 

@@ -21,10 +21,10 @@ function About() {
               Veni, seguime. Te muestro como Vamos a Mejorar tu rendimiento
               deportivo
               <br />
-              Tenemos todo para cambiar y mejorar en todos los sentidos Tú
-              experiencia con el deporte.
+              Tenemos todo para cambiar y mejorar en todos los sentidos Tù
+              <span> experiencia</span> con el deporte.
               <br />
-              Somos mas de veinte profesionales a tu disposición.
+              Somos mas de <span> 20</span> profesionales a tu disposición.
               <br />
               Somos cientos de rutinas adaptadas a cada deporte y a cada
               necesidad.
@@ -33,9 +33,9 @@ function About() {
               <br />
               Somos Muchos que somos felices haciendo de Omni TU espacio.
               <br />
-              Nuestro Fuerte es la Fuerza, nuestros salónes de musculación
-              equipados y distribuidos para asegurar tu evolución y la máxima
-              comodidad Siempre.
+              Nuestro Fuerte es la <span>Fuerza</span>, nuestros salónes de
+              musculación equipados y distribuidos para asegurar tu evolución y
+              la máxima comodidad Siempre.
               <br /> Nuestras clases grupales, siempre persiguiendo ese objetivo
               individual con espacio exclusivo para dar confianza a tu
               experiencia.
@@ -45,7 +45,7 @@ function About() {
               comoda y Segura desde el minuto Uno.
               <br />
               Vení a probar y empezá a ser feliz En este lugar pensado para
-              TODOS⁣
+              <span> TODOS</span>
               <br />
               Animate, estamos muy cerca tuyo.
             </p>
