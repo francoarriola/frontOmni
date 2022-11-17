@@ -5,10 +5,15 @@ import Price from "../componentes/Price";
 import Focus from "../componentes/Focus";
 import Contact from "../componentes/Contact";
 import Footer from "../componentes/Footer";
-
+import Head from "next/head";
 const Welcome = () => {
   return (
     <>
+      <Head>
+        <title>Omnifit Gym</title>
+        <meta name="description" content="Gimnasio en Concordia" />
+        <link rel="icon" href="/logofavicon.png" />
+      </Head>
       <Home></Home>
       <About></About>
       <Open></Open>

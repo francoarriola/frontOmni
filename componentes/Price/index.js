@@ -119,9 +119,9 @@ function Price() {
         <Modal.Body>
           <p className={Styles["modal-footer"]}>
             Te estas sumando a nuestro Pase Libre, tenes acceso a la sala de
-            Musculacion de Sunes a Sabados y todas las clases incluidas.Este
-            pago te habilita a entrenar por 30 dias a partir del dia en que lo
-            abonas.Acepta para redirigirte al pago a traves de MercadoPago.
+            Musculacion de Lunes a Sabados y todas las clases incluidas.Este
+            pago te habilita a entrenar por 30 dias a partir del momento en que
+            lo abonas.Acepta para redirigirte al pago a traves de MercadoPago.
             <br /> A entrenar!!
           </p>
         </Modal.Body>
