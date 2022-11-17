@@ -134,9 +134,25 @@
   @include md {
     width: 96px;
     height: 96px;
+    border: 8px solid;
+    border-left-color: #09f;
   }
 }
 
+.loader-flex {
+  display: flex;
+  p {
+    color: gray;
+    font-size: 20px;
+  }
+  @include md {
+    display: flex;
+    p {
+      color: gray;
+      font-size: 70px;
+    }
+  }
+}
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -163,7 +179,7 @@
     font-size: 50px;
     font-weight: 100;
     position: relative;
-    top: 300px;
+    top: 400px;
     left: 50px;
   }
 }

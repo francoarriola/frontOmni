@@ -127,7 +127,10 @@ function Price() {
         </Modal.Body>
         <Modal.Footer>
           {isLoading ? (
-            <div className={Styles["spinner"]} />
+            <div className={Styles["loader-flex"]}>
+              <p>Redirigiendo...</p>
+              <div className={Styles["spinner"]} />
+            </div>
           ) : (
             <Button
               variant="primary"
