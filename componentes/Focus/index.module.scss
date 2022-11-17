@@ -50,4 +50,7 @@
     color: white;
     transition-duration: 300ms;
   }
+  @include md {
+    font-weight: 800;
+  }
 }

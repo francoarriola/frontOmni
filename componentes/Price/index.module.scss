@@ -125,7 +125,7 @@
 }
 
 .modal-title {
-  color: black;
+  color: $--primary;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   @include md {
     font-size: 80px;
@@ -137,9 +137,11 @@
   @include md {
     width: 1000px;
     height: 1400px;
-
     font-size: 50px;
     font-weight: 100;
+    position: relative;
+    top: 300px;
+    left: 50px;
   }
 }
 

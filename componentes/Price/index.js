@@ -44,13 +44,15 @@ function Price() {
               </Card.Title>
               <Card.Text className={Styles["tarjeta-text"]}>
                 Planificacion personalizada.
-                <br /> Acompañamiento de nuestro Coach.
+                <br /> Acompañamiento de
+                <br /> nuestros Coachs.
                 <br /> Horarios libres de entreno.
                 <br /> 6 dias a la semana.
-                <br /> Full clases incluidas.
+                <br /> 15 clases incluidas.
+                <br /> Acceso a 1000m2 de gimnasio.
               </Card.Text>
               <Card.Footer className={Styles["tarjeta-footer"]}>
-                <h3>$163</h3>
+                <h3>$172</h3>
                 <h4>POR DIA</h4>
               </Card.Footer>
               <a>
@@ -70,7 +72,6 @@ function Price() {
                 PASE INDIVIDUAL <br></br>MENSUAL
               </Card.Title>
               <Card.Text className={Styles["tarjeta-text"]}>
-                <br></br>
                 Planificacion personalizada en la
                 <br />
                 actividad que elijas.
@@ -78,9 +79,11 @@ function Price() {
                 Horarios Fijos.
                 <br />
                 Dias limitados.
+                <br />
+                Reservas limitadas.
               </Card.Text>
               <Card.Footer className={Styles["tarjeta-footer"]}>
-                <h3>$140</h3>
+                <h3>$151</h3>
                 <h4>POR DIA</h4>
               </Card.Footer>
               <Link href="/form">
@@ -110,9 +113,11 @@ function Price() {
         </Modal.Header>
         <Modal.Body>
           <p className={Styles["modal-footer"]}>
-            Cuota valida por el mes actual comenzando desde el dia que se abona,
-            una vez realizado el pago accedes a la cuota PASE LIBRE. Tu cuota
-            finaliza el mismo dia que abonaste. A entrenar!!
+            Te estas sumando a nuestro Pase Libre, tenes acceso a la sala de
+            Musculacion de Sunes a Sabados y todas las clases incluidas.Este
+            pago te habilita a entrenar por 30 dias a partir del dia en que lo
+            abonas.Acepta para redirigirte al pago a traves de MercadoPago.
+            <br /> A entrenar!!
           </p>
         </Modal.Body>
         <Modal.Footer>
