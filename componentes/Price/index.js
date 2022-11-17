@@ -9,8 +9,10 @@ import { useState } from "react";
 function Price() {
   const [mpUrl, setMpUrl] = useState(null);
   const [show, setShow] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const pagar = () => {
+    setIsLoading(true);
     (async () => {
       const data = await fetch("https://backomniweb.herokuapp.com/payment", {
         method: "GET",
@@ -26,6 +28,9 @@ function Price() {
       if (url) {
         setMpUrl(url);
         window.location.href = url;
+      } else {
+        alert("hubo un error");
+        setIsLoading(false);
       }
     })();
   };
@@ -121,13 +126,17 @@ function Price() {
           </p>
         </Modal.Body>
         <Modal.Footer>
-          <Button
-            variant="primary"
-            onClick={() => pagar()}
-            className={Styles["botonmodal"]}
-          >
-            ACEPTO
-          </Button>
+          {isLoading ? (
+            <div className={Styles["spinner"]} />
+          ) : (
+            <Button
+              variant="primary"
+              onClick={() => pagar()}
+              className={Styles["botonmodal"]}
+            >
+              ACEPTO
+            </Button>
+          )}
         </Modal.Footer>
       </Modal>
     </div>
