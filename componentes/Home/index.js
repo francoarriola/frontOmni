@@ -18,7 +18,7 @@ function Home() {
           />
         </div>
         <div className={Styles["home"]}>
-          <h1 className={Styles["title"]}>
+          <h1 className={Styles["empezar"]}>
             ESTAS A<br />
             UN PASO
             <br />
@@ -27,7 +27,7 @@ function Home() {
           </h1>
           <Image
             src={smithTatuaje}
-            alt="SmithTrainning"
+            alt="Musculacion"
             width={600}
             height={500}
             className={Styles["img"]}
