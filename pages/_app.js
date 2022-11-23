@@ -7,10 +7,21 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Omnifit Gym Gimnasio en Concordia, Entre Rios</title>
+        <title key="title">
+          Omnifit Gym, Gimnasio en Concordia, Entre Rios
+        </title>
         <meta
+          key="description"
           name="description"
           content="Gimnasio Premium de +1000m2 con sala de Musculacion, Box de Crossfit y Box Funcional Hiit en Concordia"
+        />
+        <meta
+          property="og:title"
+          content="Omnifit Gym, Gimnasio en Concordia, Entre Rios"
+        />
+        <meta
+          property="og:description"
+          content="Gimnasio en la ciudad de Concordia,Entre Rios"
         />
         <link rel="icon" href="/logofavicon.png" key="desc" />
       </Head>
