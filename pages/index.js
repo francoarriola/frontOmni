@@ -5,7 +5,6 @@ import Price from "../componentes/Price";
 import Focus from "../componentes/Focus";
 import Contact from "../componentes/Contact";
 import Footer from "../componentes/Footer";
-import Head from "next/head";
 const Welcome = () => {
   return (
     <>

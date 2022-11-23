@@ -2,10 +2,30 @@ import Styles from "./index.module.scss";
 import Image from "next/image";
 import staffCompleto from "../../public/Images/staff.jpg";
 import Link from "next/link";
+import Head from "next/head";
 
 function About() {
   return (
     <>
+      <Head>
+        <title key="title">
+          Omnifit Gym, Gimnasio en Concordia, Entre Rios
+        </title>
+        <meta
+          key="description"
+          name="description"
+          content="Gimnasio Premium de +1000m2 con sala de Musculacion, Box de Crossfit y Box Funcional Hiit en Concordia"
+        />
+        <meta
+          property="og:title"
+          content="Omnifit Gym, Gimnasio en Concordia, Entre Rios"
+        />
+        <meta
+          property="og:description"
+          content="Gimnasio en la ciudad de Concordia,Entre Rios"
+        />
+        <link rel="icon" href="/logofavicon.png" key="desc" />
+      </Head>
       <div className={Styles["fondo"]}>
         <div className={Styles["container"]}>
           <Image
