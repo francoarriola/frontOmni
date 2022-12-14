@@ -14,13 +14,16 @@ function Price() {
   const pagar = () => {
     setIsLoading(true);
     (async () => {
-      const data = await fetch("https://backomniweb.herokuapp.com/payment", {
-        method: "GET",
-        mode: "cors",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const data = await fetch(
+        "https://backomni-production.up.railway.app/payment",
+        {
+          method: "GET",
+          mode: "cors",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
       const content = await data.text();
 
       const contentparse = JSON.parse(content);
