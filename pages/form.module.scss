@@ -8,9 +8,8 @@
   background-image: url(../public/Images/Background.png);
   padding: 0px 80px 80px 80px;
   @include md {
-    margin-bottom: 100px;
     width: 120%;
-    height: 800px;
+    height: 900px;
   }
 }
 

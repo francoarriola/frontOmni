@@ -17,10 +17,10 @@ const form = () => {
 
     emailjs
       .sendForm(
-        "service_crlu8t4",
-        "template_m42921a",
+        "service_ezrkc5c",
+        "template_cz5ghav",
         form.current,
-        "WCPhhofnn0vZwn7Na"
+        "ff747vRoTAOCibJMN"
       )
       .then(
         (res) => {
@@ -57,20 +57,30 @@ const form = () => {
             />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Tu Email</Form.Label>
-            <Form.Control
-              type="email"
-              placeholder="mail@ejemplo.com"
-              name="user_email"
-              required
-            />
+            <Form.Label>DNI</Form.Label>
+            <Form.Control type="number" name="user_dni" required />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Tu Whatsapp</Form.Label>
+            <Form.Label>Whatsapp</Form.Label>
             <Form.Control type="number" name="user_wpp" required />
           </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Label>Fecha de Nacimiento</Form.Label>
+            <Form.Control type="date" name="user_date" required />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Label>Direccion</Form.Label>
+            <Form.Control type="text" name="user_address" required />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Label>Email</Form.Label>
+            <Form.Control type="email" name="user_email" required />
+          </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>¿Que actividad queres hacer?</Form.Label>
+            <Form.Label>
+              Contanos què objetivo tenes y què dia te esperamos para comenzar
+              con tu entreno!
+            </Form.Label>
             <Form.Control as="textarea" rows={3} name="message" required />
           </Form.Group>
           <div className={Styles["buttonsgroup"]}>
@@ -84,7 +94,7 @@ const form = () => {
         </Form>
         {showMessage ? (
           <div className="alert alert-success col-md-5 mx-auto" role="alert">
-            Email Enviado Correctamente!!
+            Tu inscripcion esta lista! Te esperamos para entrenar!
           </div>
         ) : (
           " "
@@ -92,7 +102,7 @@ const form = () => {
 
         {error ? (
           <div className="alert alert-danger col-md-5 mx-auto" role="alert">
-            Tu Email no pudo ser enviado
+            Tu Email no pudo ser enviado. Intenta mas tarde
           </div>
         ) : (
           ""
