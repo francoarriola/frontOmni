@@ -173,14 +173,13 @@
 }
 
 .modal-all {
+  position: fixed;
   @include md {
     width: 1000px;
     height: 1400px;
     font-size: 50px;
     font-weight: 100;
-    position: relative;
-    top: 400px;
-    left: 50px;
+    position: fixed;
   }
 }
 
