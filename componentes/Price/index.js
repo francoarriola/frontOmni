@@ -18,7 +18,7 @@ function Price() {
         "https://backomni-production.up.railway.app/payment",
         {
           method: "GET",
-          mode: "cors",
+          mode: "'no-cors",
           headers: {
             "Content-Type": "application/json",
           },
