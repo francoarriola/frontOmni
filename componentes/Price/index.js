@@ -60,7 +60,7 @@ function Price() {
                 <br /> Acceso a 1000m2 de gimnasio.
               </Card.Text>
               <Card.Footer className={Styles["tarjeta-footer"]}>
-                <h3>$193</h3>
+                <h3>$210</h3>
                 <h4>POR DIA</h4>
               </Card.Footer>
               <a>
