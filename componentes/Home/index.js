@@ -19,8 +19,11 @@ function Home() {
           />
           <div>
             <Link href="/institute">
-              <button className={Styles["navlink"]}>OMNI INSTITUTE </button>
+              <span type="button" className={Styles["navlink"]}>
+                OMNI INSTITUTE{" "}
+              </span>
             </Link>
+
             {/* <Link href="/form">
               <span className={Styles["navlink"]}>Sobre nosotros </span>
             </Link> */}
