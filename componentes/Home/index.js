@@ -3,6 +3,7 @@ import Image from "next/image";
 import smithTatuaje from "../../public/Images/Principal.png";
 import logoFullBlanco from "../../public/Logos/Logo blanco.png";
 import { useState } from "react";
+import Link from "next/link";
 
 function Home() {
   return (
@@ -16,6 +17,14 @@ function Home() {
             height={250}
             className={Styles["imglogo"]}
           />
+          <div>
+            <Link href="/institute">
+              <span className={Styles["navlink"]}>OMNI INSTITUTE </span>
+            </Link>
+            {/* <Link href="/form">
+              <span className={Styles["navlink"]}>Sobre nosotros </span>
+            </Link> */}
+          </div>
         </div>
         <div className={Styles["home"]}>
           <h1 className={Styles["empezar"]}>
