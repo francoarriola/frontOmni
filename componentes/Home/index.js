@@ -18,7 +18,7 @@ function Home() {
             className={Styles["imglogo"]}
           />
           <div>
-            <Link href="/institute">
+            <Link href="../institute">
               <span className={Styles["navlink"]}>OMNI INSTITUTE </span>
             </Link>
             {/* <Link href="/form">
