@@ -1,0 +1,87 @@
+@import "../styles/_mixins.scss";
+
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  // background-image: url(../public/Images/valeEspalda.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0px 80px 80px 80px;
+  @include md {
+    width: 120%;
+    height: 900px;
+  }
+}
+
+.monitor {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1 {
+  margin-top: -170px;
+}
+
+.nav {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 85px;
+  margin-left: -50px;
+  align-items: center;
+  justify-content: space-between;
+  @include md {
+    justify-content: space-between;
+  }
+}
+.nav2 {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -50px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    margin-right: 10px;
+    strong {
+      color: yellow;
+    }
+  }
+  @include md {
+    margin-top: 150px;
+    margin-left: 60px;
+    flex-direction: column;
+  }
+}
+
+.button3 {
+  height: 50px;
+  background-color: #25d366;
+  color: #fff;
+  border: 1px solid #25d366;
+  font-weight: 800;
+  &:hover {
+    background-color: black;
+    border: 1px yellow solid;
+  }
+  @include md {
+    margin-left: 60px;
+  }
+}
+
+.h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  span {
+    color: black;
+    background-color: yellow;
+    border-radius: 3px;
+  }
+}
