@@ -1,4 +1,5 @@
 @import "../styles/_mixins.scss";
+@import "../styles/library";
 
 .body {
   width: 100%;
@@ -26,6 +27,11 @@
 
 .h1 {
   margin-top: -170px;
+  @include md {
+    width: 100%;
+    flex-direction: column;
+    line-height: 55px;
+  }
 }
 
 .nav {
@@ -46,15 +52,18 @@
   margin-right: 10px;
   align-items: center;
   justify-content: space-between;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
   p {
     margin-right: 10px;
     strong {
-      color: yellow;
+      color: $--primary;
     }
   }
   @include md {
     margin-top: 150px;
-    margin-left: 60px;
+    margin-left: -40px;
+    width: 100%;
     flex-direction: column;
   }
 }
@@ -64,13 +73,14 @@
   background-color: #25d366;
   color: #fff;
   border: 1px solid #25d366;
-  font-weight: 800;
+  font-weight: 300;
+  font-family: Impact, "Kanit-Extrabold", "Arial Narrow Bold", sans-serif;
   &:hover {
     background-color: black;
     border: 1px yellow solid;
   }
   @include md {
-    margin-left: 60px;
+    margin-left: 120px;
   }
 }
 
@@ -83,5 +93,23 @@
     color: black;
     background-color: yellow;
     border-radius: 3px;
+  }
+}
+
+.img {
+  border-radius: 10px;
+  @include md {
+    margin-left: 70px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+}
+
+.button2 {
+  background-color: transparent;
+  border: 1px solid white;
+  &:hover {
+    background-color: transparent;
+    border: 1px solid yellow;
   }
 }

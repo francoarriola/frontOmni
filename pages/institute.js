@@ -3,18 +3,25 @@ import Button from "react-bootstrap/Button";
 import Image from "next/image";
 import logoFullBlanco from "../public/Logos/institute.png";
 import vale from "../public/Images/valeEspalda.jpg";
+import abdominal from "../public/Images/abdominal.jpg";
+import pesoMuerto from "../public/Images/pesomuerto.jpg";
 import Link from "next/link";
 import React from "react";
+import Carousel from "react-bootstrap/Carousel";
 
 const institute = () => {
   return (
     <div className={Styles["fondo"]}>
       <div className={Styles["body"]}>
         <div className={Styles["nav"]}>
-          <Image src={logoFullBlanco} alt="logo" width={180} height={50} />
-          <Link href="/form">
-            <Button className={Styles["button3"]}>INSCRIPCION</Button>
-          </Link>
+          <div>
+            <Image src={logoFullBlanco} alt="logo" width={180} height={50} />
+          </div>
+          <div>
+            <Link href="/form">
+              <Button className={Styles["button3"]}>INSCRIPCION</Button>
+            </Link>
+          </div>
         </div>
         <div className={Styles["nav2"]}>
           <div>
@@ -46,7 +53,42 @@ const institute = () => {
             </Link>
           </div>
           <div>
-            <Image src={vale} alt="vale" width={500} height={650} />
+            {/* <Image
+              className={Styles["img"]}
+              src={vale}
+              alt="vale"
+              width={500}
+              height={650}
+            /> */}
+            <Carousel interval={2000}>
+              <Carousel.Item>
+                <Image
+                  className={Styles["img"]}
+                  src={vale}
+                  alt="first slide"
+                  width={500}
+                  height={650}
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <Image
+                  className={Styles["img"]}
+                  src={pesoMuerto}
+                  alt="second slide"
+                  width={500}
+                  height={650}
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <Image
+                  className={Styles["img"]}
+                  src={abdominal}
+                  alt="third slide"
+                  width={500}
+                  height={650}
+                />
+              </Carousel.Item>
+            </Carousel>
           </div>
         </div>
       </div>
