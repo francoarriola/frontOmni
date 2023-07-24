@@ -64,13 +64,15 @@ function Price() {
                 <h4>POR DIA</h4>
               </Card.Footer>
               <a>
-                <button
-                  type="button"
-                  className={Styles["button"]}
-                  onClick={() => setShow(true)}
-                >
-                  ADHERIRME
-                </button>
+                <Link href="/form">
+                  <button
+                    type="button"
+                    className={Styles["button"]}
+                    // onClick={() => setShow(true)} MODAL OFF
+                  >
+                    CONSULTAR
+                  </button>
+                </Link>
               </a>
             </Card.Body>
           </Card>
