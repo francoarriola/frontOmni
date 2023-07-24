@@ -2,9 +2,9 @@ import Styles from "./institute.module.scss";
 import Button from "react-bootstrap/Button";
 import Image from "next/image";
 import logoFullBlanco from "../public/Logos/institute.png";
-import vale from "../public/Images/valeEspalda.jpg";
-import abdominal from "../public/Images/abdominal.jpg";
-import pesoMuerto from "../public/Images/pesomuerto.jpg";
+import diploma from "../public/Images/diploma.png";
+import explicacionCurso from "../public/Images/explicacionCurso.png";
+import sentadillaCurso from "../public/Images/sentadillaCurso.png";
 import Link from "next/link";
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
@@ -64,7 +64,7 @@ const institute = () => {
               <Carousel.Item>
                 <Image
                   className={Styles["img"]}
-                  src={vale}
+                  src={explicacionCurso}
                   alt="first slide"
                   width={500}
                   height={650}
@@ -73,7 +73,7 @@ const institute = () => {
               <Carousel.Item>
                 <Image
                   className={Styles["img"]}
-                  src={pesoMuerto}
+                  src={diploma}
                   alt="second slide"
                   width={500}
                   height={650}
@@ -82,7 +82,7 @@ const institute = () => {
               <Carousel.Item>
                 <Image
                   className={Styles["img"]}
-                  src={abdominal}
+                  src={sentadillaCurso}
                   alt="third slide"
                   width={500}
                   height={650}
