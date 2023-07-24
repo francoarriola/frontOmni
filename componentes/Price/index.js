@@ -53,7 +53,7 @@ function Price() {
               <Card.Text className={Styles["tarjeta-text"]}>
                 Planificacion personalizada.
                 <br /> Acompañamiento de
-                <br /> nuestros Coachs.
+                <br /> nuestros Coachs
                 <br /> Horarios libres de entreno.
                 <br /> 6 dias a la semana.
                 <br /> 15 clases incluidas.
